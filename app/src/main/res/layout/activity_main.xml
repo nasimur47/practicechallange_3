@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bgimgf_1"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:orientation="vertical"
+           >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/maldips_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-100dp"
+            android:background="@drawable/upperbgstyle"
+            android:text="Where to ^"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+       </LinearLayout>
+
+
+
+
+<!--                         start   png img        -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/bed" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Hotels"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+
+                <!--             .................-->
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/home_1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Vacation"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/airplane" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Areoplane"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--     second line ....................-->
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/restaurant" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Restaurants"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+
+                <!--             .................-->
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/todolist" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Things To Do"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/more1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="More"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--                 end  of   png img      -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="TOP DESTINATIONS"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/parrsie_1"
+
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mohasthangor_1"
+
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/parimed" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+        </LinearLayout>
+
+
+<!--            second  page     visibility   -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="আপনার নাম কী "
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#3F51B5"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="60dp"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="60dp"
+
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="90dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#3F51B5"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="60dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+<!--            second  page     visibility     -->
+
+<!--                      fixed always          -->
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="95dp"
+      android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+      >
+      <include
+         layout="@layout/excersice_21"
+          />
+
+
+  </LinearLayout>
+    </RelativeLayout>
+
+<!--            fixed  always   -->
+
+
+</LinearLayout>
